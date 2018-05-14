@@ -1,13 +1,17 @@
-body{
-	background-color: #69c !important;
+html body{
+	background-color: rgba(102, 153, 204, 1) !important;
+}
+.container{
+	background-color: #69c;
 }
 
-.mainone{
-	width: 1600px;
-	height: 1000px;
-}
-.hero{
-	width: 1600px;
-	height: 1000px;
-	background-color: beige;
+.hero-image{
+	background: url('../images/placehold.jpg');
+	width: 100%;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size:  100% 100%;
+    -o-background-size:  100% 100%;
+    background-size:  100% 100%;
+    display:table;
+    min-height: 450px;
 }
